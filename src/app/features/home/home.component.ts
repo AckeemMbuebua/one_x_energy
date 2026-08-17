@@ -7,6 +7,10 @@ import { ContactCtaComponent } from '../../shared/components/contact-cta.compone
 export class HomeComponent {
   constructor() {
     inject(Title).setTitle('ONE X ENERGY | Électricité bâtiment, formation et matériels');
-    inject(Meta).updateTag({ name: 'description', content: 'ONE X ENERGY intervient dans l’électrification des bâtiments, la formation en électricité bâtiment et la fourniture de matériels électriques.' });
+    const meta = inject(Meta);
+    const description = 'ONE X ENERGY intervient dans l’électrification des bâtiments, la formation en électricité bâtiment et la fourniture de matériels électriques.';
+    meta.updateTag({ name: 'description', content: description });
+    meta.updateTag({ property: 'og:title', content: 'ONE X ENERGY | Électricité bâtiment, formation et matériels' });
+    meta.updateTag({ property: 'og:description', content: description });
   }
 }

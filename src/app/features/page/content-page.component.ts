@@ -12,5 +12,11 @@ export class ContentPageComponent {
   ];
   readonly materials = ['Câbles','Interrupteurs','Disjoncteurs','Luminaires','Tableaux électriques','Autres équipements électriques'];
   readonly values = ['Professionnalisme','Intégrité','Sécurité','Formation continue','Satisfaction client'];
-  constructor() { inject(Title).setTitle(this.page.title); inject(Meta).updateTag({name:'description',content:this.page.meta}); }
+  constructor() {
+    inject(Title).setTitle(this.page.title);
+    const meta = inject(Meta);
+    meta.updateTag({ name: 'description', content: this.page.meta });
+    meta.updateTag({ property: 'og:title', content: this.page.title });
+    meta.updateTag({ property: 'og:description', content: this.page.meta });
+  }
 }
