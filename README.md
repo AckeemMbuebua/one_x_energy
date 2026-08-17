@@ -1,59 +1,21 @@
-# OneX
+# ONE X ENERGY — Pack Codex
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.1.2.
+Ce pack contient le cadrage complet destiné à Codex pour reconstruire la V1 du site vitrine ONE X ENERGY.
 
-## Development server
+## Fichiers
 
-To start a local development server, run:
+- `AGENTS.md` — règles globales du dépôt.
+- `docs/00_PROJECT_BRIEF.md` — contexte, objectifs et périmètre.
+- `docs/01_INFORMATION_ARCHITECTURE.md` — sitemap et rôle des pages.
+- `docs/02_EDITORIAL_GUIDE.md` — ligne éditoriale.
+- `docs/03_CONTENT_SPEC.md` — contenu de référence à intégrer.
+- `docs/04_DESIGN_SYSTEM.md` — identité visuelle et règles UI.
+- `docs/05_VISUAL_REFERENCE_GUIDE.md` — manière d’exploiter la référence visuelle.
+- `docs/06_PAGE_BLUEPRINTS.md` — structure complète de toutes les pages.
+- `docs/07_TECHNICAL_SPEC.md` — contraintes techniques.
+- `docs/08_MEDIA_GUIDE.md` — logos, photos et règles d’utilisation.
+- `docs/09_SEO_SPEC.md` — SEO V1.
+- `docs/10_QA_ACCEPTANCE.md` — critères de validation.
+- `CODEX_MASTER_PROMPT.md` — consigne finale à donner à Codex.
 
-```bash
-ng serve
-```
-
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+La référence visuelle est une inspiration forte de composition, mais le résultat final doit être propre à ONE X ENERGY.
