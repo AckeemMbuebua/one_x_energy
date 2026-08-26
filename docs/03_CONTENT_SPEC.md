@@ -176,7 +176,7 @@ Réseaux :
 - Facebook : One X Energy
 - Instagram : onex energy63
 - X : ONE X ENERGY Organization
-- LinkedIn : ONE X ENERGY Organization
+- LinkedIn : ONE X ENERGY Organization — `https://www.linkedin.com/in/one-x-energy-organization-b3a0b339a`
 - TikTok : @onexenergyorganization
 
 # 404

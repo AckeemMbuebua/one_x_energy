@@ -62,10 +62,10 @@ Réseaux sociaux communiqués :
 - Facebook : `One X Energy`
 - Instagram : `onex energy63`
 - X : `ONE X ENERGY Organization`
-- LinkedIn : `ONE X ENERGY Organization`
+- LinkedIn : `ONE X ENERGY Organization` — `https://www.linkedin.com/in/one-x-energy-organization-b3a0b339a`
 - TikTok : `@onexenergyorganization`
 
-Les URL exactes des réseaux sociaux n’ont pas été fournies. Ne pas fabriquer de liens.
+Les URL exactes des autres réseaux sociaux n’ont pas été fournies. Ne pas fabriquer de liens.
 
 ## 5. Objectifs de la V1
 
