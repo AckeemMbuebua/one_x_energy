@@ -58,11 +58,11 @@ CTA : **Voir les matériels**
 
 Titre : **Une pratique guidée par des principes simples**
 
-- **Professionnalisme** — Travailler avec méthode, clarté et rigueur à chaque étape.
-- **Intégrité** — Communiquer de manière transparente et respecter les engagements pris.
-- **Sécurité** — Placer la sécurité des personnes et des installations au cœur des interventions.
-- **Formation continue** — Faire évoluer les compétences techniques et les pratiques.
-- **Satisfaction client** — Rester attentif au besoin exprimé et à la qualité du travail réalisé.
+- **Professionnalisme**
+- **Intégrité**
+- **Sécurité**
+- **Formation continue**
+- **Satisfaction client**
 
 ## Contact final
 
@@ -78,7 +78,7 @@ Eyebrow : **Électrification des bâtiments**
 
 H1 : **Des installations électriques étudiées, réalisées et entretenues.**
 
-> ONE X ENERGY intervient sur les installations électriques domestiques et commerciales, de l’étude jusqu’à la maintenance.
+> ONE X ENERGY intervient sur les installations électriques domestiques et commerciales : étude, conception, réalisation, mise en conformité, maintenance et dépannage.
 
 Prestations :
 
@@ -112,7 +112,7 @@ Publics :
 
 ### Formation avancée
 
-> Un approfondissement destiné aux personnes disposant déjà de bases et souhaitant renforcer leur maîtrise technique.
+> Une formation destinée à approfondir les connaissances et les pratiques en électricité bâtiment.
 
 CTA : **Demander des informations**
 

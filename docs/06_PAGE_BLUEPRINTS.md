@@ -56,7 +56,7 @@ Hero intérieur, introduction, six prestations, CTA.
 
 Présenter les prestations via sections alternées, liste numérotée ou grille technique. Éviter six cards identiques.
 
-Une logique de service peut être présentée sobrement : comprendre le besoin, étudier, intervenir, vérifier. Ne pas la présenter comme procédure certifiée.
+Ne pas présenter de processus ou de méthode d’intervention sans information officielle complémentaire.
 
 # Formations
 
