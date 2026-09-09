@@ -1,4 +1,56 @@
 import { Component } from '@angular/core';
 import { RouterLink } from '@angular/router';
-@Component({ selector: 'app-footer', imports: [RouterLink], template: `<footer class="site-footer"><div class="shell footer-grid"><div class="footer-brand"><img src="assets/images/logo-light.png" alt="ONE X ENERGY Organization" width="220" height="84"><p>Électrification des bâtiments, formation en électricité bâtiment et fourniture de matériels électriques.</p></div><div><h2>Navigation</h2><ul><li><a routerLink="/services">Services</a></li><li><a routerLink="/formations">Formations</a></li><li><a routerLink="/materiels">Matériels</a></li><li><a routerLink="/realisations">Réalisations</a></li><li><a routerLink="/a-propos">À propos</a></li></ul></div><div><h2>Contact</h2><ul><li><a href="tel:+243850124755">+243 85 012 47 55</a></li><li><a href="https://wa.me/243850124755">WhatsApp</a></li><li><a href="mailto:onexenergyorganization@gmail.com">Email</a></li></ul></div><div><h2>Réseaux</h2><p class="social-names">Facebook · One X Energy<br>Instagram · onex energy63<br>X · ONE X ENERGY Organization<br><a href="https://www.linkedin.com/in/one-x-energy-organization-b3a0b339a" target="_blank" rel="noopener noreferrer">LinkedIn · ONE X ENERGY Organization</a><br>TikTok · @onexenergyorganization</p></div></div><div class="shell copyright">© {{ year }} ONE X ENERGY Organization</div></footer>` })
-export class FooterComponent { readonly year = new Date().getFullYear(); }
+@Component({
+  selector: 'app-footer',
+  imports: [RouterLink],
+  template: `<footer class="site-footer">
+    <div class="shell footer-grid">
+      <div class="footer-brand">
+        <img
+          src="assets/images/logo-light.png"
+          alt="ONE X ENERGY Organization"
+          width="220"
+          height="84"
+        />
+        <p>
+          Électrification des bâtiments, formation en électricité bâtiment et fourniture de
+          matériels électriques.
+        </p>
+      </div>
+      <div>
+        <h2>Navigation</h2>
+        <ul>
+          <li><a routerLink="/services">Services</a></li>
+          <li><a routerLink="/formations">Formations</a></li>
+          <li><a routerLink="/materiels">Matériels</a></li>
+          <li><a routerLink="/realisations">Réalisations</a></li>
+          <li><a routerLink="/a-propos">À propos</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Contact</h2>
+        <ul>
+          <li><a href="tel:+243850124755">+243 85 012 47 55</a></li>
+          <li><a href="https://wa.me/243850124755">WhatsApp</a></li>
+          <li><a href="mailto:onexenergyorganization@gmail.com">Email</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Réseaux</h2>
+        <p class="social-names">
+          Facebook · One X Energy<br />Instagram · onex energy63<br />X · ONE X ENERGY
+          Organization<br /><a
+            href="https://www.linkedin.com/in/one-x-energy-organization-b3a0b339a"
+            target="_blank"
+            rel="noopener noreferrer"
+            >LinkedIn · ONE X ENERGY Organization</a
+          ><br />TikTok · @onexenergyorganization
+        </p>
+      </div>
+    </div>
+    <div class="shell copyright">© {{ year }} ONE X ENERGY Organization</div>
+  </footer>`,
+})
+export class FooterComponent {
+  readonly year = new Date().getFullYear();
+}
