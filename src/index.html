@@ -11,8 +11,16 @@
   <meta property="og:title" content="ONE X ENERGY | Électricité bâtiment, formation et matériels">
   <meta property="og:description" content="Électrification des bâtiments, formation en électricité bâtiment et fourniture de matériels électriques.">
   <link rel="icon" type="image/png" href="assets/images/logo-dark.png">
+  <style>
+    html,body{margin:0;background:#04002d}
+    .initial-loader{position:fixed;inset:0;display:grid;place-items:center;background:#04002d}
+    .initial-loader img{width:clamp(150px,28vw,220px);height:auto}
+    .initial-loader::after{content:"";position:absolute;left:0;top:0;width:32%;height:3px;background:#ff4d00;animation:initial-progress 1.15s ease-in-out infinite alternate}
+    @keyframes initial-progress{to{transform:translateX(212.5%)}}
+    @media(prefers-reduced-motion:reduce){.initial-loader::after{width:100%;animation:none}}
+  </style>
 </head>
 <body>
-  <app-root></app-root>
+  <app-root><div class="initial-loader" aria-hidden="true"><img src="assets/images/logo-light-web.png" alt=""></div></app-root>
 </body>
 </html>

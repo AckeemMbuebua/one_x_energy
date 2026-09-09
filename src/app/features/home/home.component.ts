@@ -2,8 +2,9 @@ import { Component, inject } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { Title, Meta } from '@angular/platform-browser';
 import { ContactCtaComponent } from '../../shared/components/contact-cta.component';
+import { ImageLoadingDirective } from '../../shared/directives/image-loading.directive';
 
-@Component({ selector: 'app-home', imports: [RouterLink, ContactCtaComponent], templateUrl: './home.component.html' })
+@Component({ selector: 'app-home', imports: [RouterLink, ContactCtaComponent, ImageLoadingDirective], templateUrl: './home.component.html' })
 export class HomeComponent {
   constructor() {
     inject(Title).setTitle('ONE X ENERGY | Électricité bâtiment, formation et matériels');

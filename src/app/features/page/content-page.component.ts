@@ -3,8 +3,9 @@ import { ActivatedRoute, RouterLink } from '@angular/router';
 import { Meta, Title } from '@angular/platform-browser';
 import { ContactCtaComponent } from '../../shared/components/contact-cta.component';
 import { PageKey, pages } from './page-data';
+import { ImageLoadingDirective } from '../../shared/directives/image-loading.directive';
 
-@Component({ selector: 'app-content-page', imports: [RouterLink, ContactCtaComponent], templateUrl: './content-page.component.html' })
+@Component({ selector: 'app-content-page', imports: [RouterLink, ContactCtaComponent, ImageLoadingDirective], templateUrl: './content-page.component.html' })
 export class ContentPageComponent {
   readonly page = pages[inject(ActivatedRoute).snapshot.data['page'] as PageKey];
   readonly services = [

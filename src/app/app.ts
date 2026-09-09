@@ -1,7 +1,8 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from './core/layout/header.component';
 import { FooterComponent } from './core/layout/footer.component';
+import { NavigationLoadingService } from './core/loading/navigation-loading.service';
 
 @Component({
   selector: 'app-root',
@@ -9,4 +10,6 @@ import { FooterComponent } from './core/layout/footer.component';
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
-export class App {}
+export class App {
+  readonly navigationLoading = inject(NavigationLoadingService);
+}

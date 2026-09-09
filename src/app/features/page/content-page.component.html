@@ -1,5 +1,12 @@
 <section class="page-hero">
-  <img src="{{ page.image }}" alt="{{ page.imageAlt }}" width="1600" height="900" />
+  <img
+    appImageLoading
+    src="{{ page.image }}"
+    alt="{{ page.imageAlt }}"
+    width="1600"
+    height="900"
+    fetchpriority="high"
+  />
   <div class="page-hero-shade"></div>
   <div class="shell page-hero-content">
     <p class="eyebrow light">{{ page.eyebrow }}</p>
@@ -103,10 +110,12 @@
       <div class="shell gallery">
         <figure class="wide">
           <img
+            appImageLoading
             src="assets/images/maison.jpeg"
             alt="Gaines électriques installées dans une dalle avant coulage"
             width="1920"
             height="1080"
+            loading="lazy"
           />
           <figcaption>
             Préparation d’un réseau de gaines électriques intégré à une dalle.
@@ -114,28 +123,34 @@
         </figure>
         <figure>
           <img
+            appImageLoading
             src="assets/images/finished-installation.webp"
             alt="Éclairage mural et indirect dans un intérieur"
             width="1000"
             height="750"
+            loading="lazy"
           />
           <figcaption>Éclairage et équipements électriques visibles dans un intérieur.</figcaption>
         </figure>
         <figure>
           <img
+            appImageLoading
             src="assets/images/interior-lighting.webp"
             alt="Plafond avec éclairages intégrés"
             width="900"
             height="1200"
+            loading="lazy"
           />
           <figcaption>Éclairage intégré dans un espace intérieur.</figcaption>
         </figure>
         <figure>
           <img
+            appImageLoading
             src="assets/images/switch-wiring.webp"
             alt="Interrupteur en cours de raccordement"
             width="900"
             height="900"
+            loading="lazy"
           />
           <figcaption>Appareillage mural en cours de raccordement.</figcaption>
         </figure>

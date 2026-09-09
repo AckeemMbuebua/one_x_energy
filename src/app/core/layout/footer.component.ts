@@ -7,7 +7,7 @@ import { RouterLink } from '@angular/router';
     <div class="shell footer-grid">
       <div class="footer-brand">
         <img
-          src="assets/images/logo-light.png"
+          src="assets/images/logo-light-web.png"
           alt="ONE X ENERGY Organization"
           width="220"
           height="84"
